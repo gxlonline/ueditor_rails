@@ -2,7 +2,7 @@ require_dependency "ueditor_rails/application_controller"
 
 module UeditorRails
   class LibsController < ApplicationController
-    after_filter :set_expires_at
+    after_action :set_expires_at
 
     def swf_image_uploader
       send_file UeditorRails.ueditor_base_path.join('third-party/imageUploader.swf'),

@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = UeditorRails::VERSION
   s.authors     = ["Jasl"]
   s.email       = ["jasl9187@hotmail.com"]
-  s.homepage    = "http://github.com/jasl/ueditor_rails"
+  s.homepage    = "http://github.com/gxlonline/ueditor_rails"
   s.summary     = "Ueditor integration on Rails"
   s.description = "Ueditor is a WYSIWYG editor adapt to Chinese habits, this gem is a easy way to integrate with Rails"
 
